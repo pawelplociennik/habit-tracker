@@ -1,0 +1,7 @@
+.idea/
+__pycache__/
+*.pyc
+habits.json
+.venv/
+venv/
+.env
