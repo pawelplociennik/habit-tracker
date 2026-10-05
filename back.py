@@ -132,7 +132,7 @@ def sort_by_name(self):
     return self.habits
 
 def email_reminder(self,user,password,to,subject="Przypomnienie"):
-    body="Zrób trening draniu! "
+    body="Zrób trening!"
     message = EmailMessage()
     message["From"] = user
     message["To"] = to
